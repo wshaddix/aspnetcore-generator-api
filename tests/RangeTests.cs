@@ -14,5 +14,11 @@ namespace tests
             var generated = range.Of(()=> "");
             Assert.Equal(3, generated.Count());
         }
+
+         [Fact]
+        public void Test2()
+        {
+            Assert.Equal(true, false, "true does not equal false");
+        }
     }
 }
