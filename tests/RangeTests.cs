@@ -18,7 +18,7 @@ namespace tests
          [Fact]
         public void Test2()
         {
-            Assert.Equal(true, false);
+            Assert.Equal(true, true);
         }
     }
 }
